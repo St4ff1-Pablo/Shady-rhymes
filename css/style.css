@@ -80,6 +80,7 @@ h1 {
   font-size: 36px;
   line-height: 200%;
   color: #564e4e;
+  margin-top: 40px;
 }
 .card {
   margin-top: 20px;
@@ -88,7 +89,9 @@ h1 {
   height: 280px;
 }
 .card:hover {
-  border: #f79489;
+  border: 1px solid #fadcd9;
+  box-shadow: 4px 2px 10px 2px #f7948933;
+  border-radius: 10px;
 }
 .card-img {
   padding-bottom: 10px;
@@ -123,7 +126,11 @@ h1 {
   line-height: 200%;
   color: #f79489;
 }
-
+.card-info:active {
+  top: 1px;
+  right: 1px;
+  position: relative;
+}
 .cards-row {
   display: flex;
   column-gap: 20px;
