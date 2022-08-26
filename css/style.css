@@ -1,0 +1,73 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #564E4E;
+	font-size: 18px;
+}
+
+header{
+	background-image: url("../img/header/header-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header-nav{
+	padding-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-holder{
+	margin-left: 80px;
+}
+.header-nav-list{
+	cursor: default;
+}
+.header-nav-list li{
+	display: inline;
+	margin: 0 15px;
+	padding: 15px;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: 400;
+}
+.bag-holder{
+	margin-right: 80px;
+}
+h1{
+	width: 834px;
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 72px;
+	letter-spacing: 0em;
+	text-align: center;
+	width: 834px;
+	margin: 236px auto 40px;
+}
+
+.header-text{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+	width: 574px;
+	margin: auto;
+}
+
+.input-holder{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	padding-bottom: 388px;
+}
+.search-input{
+	width: 360px;
+	height: 60px;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid #FFFFFF;
+	border-radius: 30px;
+}
