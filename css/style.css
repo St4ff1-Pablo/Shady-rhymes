@@ -70,12 +70,13 @@ h1 {
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid #ffffff;
   border-radius: 30px;
+  padding-left: 19px;
 }
-
+/*Skills*/
 .container {
   margin: 0 80px;
 }
-.under-header-title {
+.card-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 200%;
@@ -134,4 +135,138 @@ h1 {
 .cards-row {
   display: flex;
   column-gap: 20px;
+}
+/*ideas*/
+.ideas {
+  margin-top: 200px;
+}
+.ideas-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 200%;
+  margin-bottom: 20px;
+}
+.ideas-subTitle {
+  font-weight: 400;
+  line-height: 200%;
+  color: #564e4e;
+  margin-bottom: 20px;
+  max-width: 806px;
+}
+.ideas-headings {
+  line-height: 200%;
+  margin-bottom: 20px;
+}
+.ideas-link {
+  color: #f79489;
+  line-height: 200%;
+}
+.ideas-row {
+  display: flex;
+}
+
+.products-heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 200%;
+  color: #564e4e;
+  text-align: center;
+  margin-top: 200px;
+}
+.products-row {
+  display: flex;
+}
+.product-block {
+  margin: 40px 20px 167px 0;
+}
+.product-img-1 {
+  background: #f6f6f6;
+  padding: 50px 87px;
+}
+.product-img-2 {
+  background: #f6f6f6;
+  padding: 52px 69px 51px 70px;
+}
+.product-img-3 {
+  background: #f6f6f6;
+  padding: 47px 98px 46px 98px;
+}
+.product-img-4 {
+  background: #f6f6f6;
+  padding: 54px 80px;
+}
+.product-title {
+  color: #564e4e;
+  font-size: 18px;
+  line-height: 200%;
+  margin: 20px 0 10px 0;
+}
+.product-category {
+  font-size: 14px;
+  line-height: 200%;
+  color: #c4c4c4;
+  margin-bottom: 10px;
+}
+.product-raiting {
+  margin-bottom: 20px;
+}
+.product-IDR {
+  color: #564e4e;
+  font-size: 14px;
+  line-height: 200%;
+}
+/*Services*/
+.services {
+  background: linear-gradient(279.85deg, #ffffff 0%, #faf5f2 100%);
+}
+.services-row {
+  display: flex;
+  column-gap: 70px;
+  margin: 0 80px;
+  padding-bottom: 248px;
+}
+.services-heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 200%;
+  color: #564e4e;
+  text-align: center;
+  margin: 84px 0 110px 0;
+}
+.service-block-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  color: #564e4e;
+}
+
+.service-block-text {
+  font-size: 18px;
+  line-height: 200%;
+  color: #564e4e;
+  width: 540px;
+}
+
+.worker {
+  display: flex;
+  margin-top: 14px;
+}
+
+.worker-img {
+  margin-right: 6px;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #564e4e;
+}
+.worker-profession {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 200%;
+  color: #564e4e;
+}
+.worker-align {
+  margin-top: 52px;
 }
