@@ -140,6 +140,9 @@ h1 {
 .ideas {
   margin-top: 200px;
 }
+.ideas-text-holder{
+  width: 50%;
+}
 .ideas-title {
   font-weight: 500;
   font-size: 36px;
@@ -157,12 +160,28 @@ h1 {
   line-height: 200%;
   margin-bottom: 20px;
 }
+.ideas-headings-holder{
+  display: flex;
+  justify-content: space-between;
+}
+.ideas-headings-holder p{
+  color: #f79489;
+  font-size: 30px;
+  cursor: default;
+  margin-right: 18px;
+}
 .ideas-link {
   color: #f79489;
   line-height: 200%;
 }
 .ideas-row {
   display: flex;
+}
+.ideas-img{
+  width: 50%;
+}
+.ideas-img img{
+  width: 100%;
 }
 
 .products-heading {
