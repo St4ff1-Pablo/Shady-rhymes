@@ -218,6 +218,7 @@ h1 {
 /*Services*/
 .services {
   background: linear-gradient(279.85deg, #ffffff 0%, #faf5f2 100%);
+  margin-bottom: 200px;
 }
 .services-row {
   display: flex;
@@ -269,4 +270,50 @@ h1 {
 }
 .worker-align {
   margin-top: 52px;
+}
+/*email*/
+.contact-form {
+  margin-bottom: 200px;
+}
+.room-2 {
+  margin-right: 65px;
+}
+.display-form {
+  display: flex;
+}
+.form-heading {
+  margin-bottom: 20px;
+  width: 507px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 200%;
+  color: #564e4e;
+}
+.form-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #564e4e;
+  margin-bottom: 40px;
+}
+.input-email {
+  width: 400px;
+  height: 60px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  padding-left: 19px;
+}
+
+.form-text-div {
+  width: 810px;
+  height: 216px;
+}
+.form-contacts-p {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #564e4e;
 }
