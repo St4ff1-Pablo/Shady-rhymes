@@ -216,7 +216,10 @@ h1 {
 .ideas-img img {
   width: 100%;
 }
-
+/*product*/
+.products {
+  margin-bottom: 167px;
+}
 .products-heading {
   font-weight: 500;
   font-size: 36px;
@@ -229,7 +232,7 @@ h1 {
   display: flex;
 }
 .product-block {
-  margin: 40px 20px 167px 0;
+  margin: 40px 20px 0 0;
 }
 .product-img-1 {
   background: #f6f6f6;
@@ -284,7 +287,8 @@ h1 {
   line-height: 200%;
   color: #564e4e;
   text-align: center;
-  margin: 84px 0 110px 0;
+  margin: 0 0 110px 0;
+  padding-top: 84px;
 }
 .service-block-heading {
   font-weight: 500;
