@@ -166,7 +166,7 @@ h1 {
 }
 .cards-row {
   display: flex;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 /*ideas*/
 .ideas {
