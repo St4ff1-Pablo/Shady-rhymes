@@ -3,6 +3,7 @@ body {
   color: #564e4e;
   font-size: 18px;
   width: 1920px;
+  line-height: 200%;
 }
 
 header {
@@ -114,8 +115,6 @@ h1 {
 .card-title {
   font-weight: 500;
   font-size: 36px;
-  line-height: 200%;
-  color: #564e4e;
   margin-top: 40px;
 }
 .card {
@@ -137,32 +136,26 @@ h1 {
 }
 
 .card-title {
-  color: #564e4e;
   font-weight: 500;
   font-size: 18px;
-  line-height: 200%;
   margin-bottom: 10px;
 }
 
 .card-text {
-  color: #564e4e;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 200%;
   width: 385px;
   height: 72px;
   margin-bottom: 20px;
 }
 
 .card-info {
-  color: #564e4e;
   width: 87px;
   height: 36px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 200%;
   color: #f79489;
 }
 .card-info:active {
@@ -184,18 +177,14 @@ h1 {
 .ideas-title {
   font-weight: 500;
   font-size: 36px;
-  line-height: 200%;
   margin-bottom: 20px;
 }
 .ideas-subTitle {
   font-weight: 400;
-  line-height: 200%;
-  color: #564e4e;
   margin-bottom: 20px;
   max-width: 806px;
 }
 .ideas-headings {
-  line-height: 200%;
   margin-bottom: 20px;
 }
 .ideas-headings-holder {
@@ -210,7 +199,6 @@ h1 {
 }
 .ideas-link {
   color: #f79489;
-  line-height: 200%;
 }
 .ideas-row {
   display: flex;
@@ -228,8 +216,6 @@ h1 {
 .products-heading {
   font-weight: 500;
   font-size: 36px;
-  line-height: 200%;
-  color: #564e4e;
   text-align: center;
   margin-top: 200px;
 }
@@ -256,14 +242,11 @@ h1 {
   padding: 54px 80px;
 }
 .product-title {
-  color: #564e4e;
   font-size: 18px;
-  line-height: 200%;
   margin: 20px 0 10px 0;
 }
 .product-category {
   font-size: 14px;
-  line-height: 200%;
   color: #c4c4c4;
   margin-bottom: 10px;
 }
@@ -271,9 +254,7 @@ h1 {
   margin-bottom: 20px;
 }
 .product-IDR {
-  color: #564e4e;
   font-size: 14px;
-  line-height: 200%;
 }
 /*Services*/
 .services {
@@ -289,8 +270,6 @@ h1 {
 .services-heading {
   font-weight: 500;
   font-size: 36px;
-  line-height: 200%;
-  color: #564e4e;
   text-align: center;
   margin: 0 0 110px 0;
   padding-top: 84px;
@@ -298,14 +277,10 @@ h1 {
 .service-block-heading {
   font-weight: 500;
   font-size: 24px;
-  line-height: 200%;
-  color: #564e4e;
 }
 
 .service-block-text {
   font-size: 18px;
-  line-height: 200%;
-  color: #564e4e;
   width: 540px;
 }
 
@@ -320,14 +295,10 @@ h1 {
 .worker-name {
   font-weight: 500;
   font-size: 18px;
-  line-height: 200%;
-  color: #564e4e;
 }
 .worker-profession {
   font-weight: 300;
   font-size: 14px;
-  line-height: 200%;
-  color: #564e4e;
 }
 .worker-align {
   margin-top: 52px;
@@ -347,14 +318,10 @@ h1 {
   width: 507px;
   font-weight: 500;
   font-size: 36px;
-  line-height: 200%;
-  color: #564e4e;
 }
 .form-text {
   font-weight: 400;
   font-size: 18px;
-  line-height: 200%;
-  color: #564e4e;
   margin-bottom: 40px;
 }
 .header-arrow-holder {
@@ -396,8 +363,6 @@ h1 {
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 200%;
-  color: #564e4e;
 }
 /* footer */
 footer {
