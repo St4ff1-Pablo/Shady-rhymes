@@ -395,3 +395,21 @@ h1 {
   line-height: 200%;
   color: #564e4e;
 }
+/* footer */
+footer{
+  width: 1920px;
+  height: 600px;
+  background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
+  color: white;
+}
+.footer-content{
+  padding-top: 100px;
+  width: 95%;
+  margin: auto;
+}
+.footer-logo{
+  width: 150PX;
+}
+footer p{
+  text-align: center;
+}
