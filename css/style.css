@@ -25,6 +25,9 @@ header {
 .header-nav-list {
   cursor: default;
 }
+.header-nav-list a {
+  color: #fff;
+}
 .header-nav-list li {
   display: inline;
   margin: 0 15px;
