@@ -8,6 +8,7 @@ header {
   background-image: url('../img/header/header-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header-nav {
@@ -56,21 +57,52 @@ h1 {
   width: 574px;
   margin: auto;
 }
-
-.input-holder {
+.header-search-holder{
+  border-radius: 100%;
+  background-color: #FAF5F2;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 11px;
+}
+.header-search-holder:hover{
+  cursor: pointer;
+  background-color: #fadcd9;
+  border-radius: 100%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-div-holder {
   display: flex;
   justify-content: center;
   margin-top: 60px;
   padding-bottom: 388px;
 }
-.search-input {
+.input-holder{
   width: 360px;
   height: 60px;
-  margin: auto;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid #ffffff;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-input {
+  width: 270px;
+  height: 60px;
+  border-radius: 30px;
   padding-left: 19px;
+  font-size: 14px;
+}
+.search-input ::placeholder{
+  color: white;
 }
 /*Skills*/
 .container {
@@ -140,6 +172,9 @@ h1 {
 .ideas {
   margin-top: 200px;
 }
+.ideas-text-holder{
+  width: 50%;
+}
 .ideas-title {
   font-weight: 500;
   font-size: 36px;
@@ -157,12 +192,28 @@ h1 {
   line-height: 200%;
   margin-bottom: 20px;
 }
+.ideas-headings-holder{
+  display: flex;
+  justify-content: space-between;
+}
+.ideas-headings-holder p{
+  color: #f79489;
+  font-size: 30px;
+  cursor: default;
+  margin-right: 18px;
+}
 .ideas-link {
   color: #f79489;
   line-height: 200%;
 }
 .ideas-row {
   display: flex;
+}
+.ideas-img{
+  width: 50%;
+}
+.ideas-img img{
+  width: 100%;
 }
 
 .products-heading {
