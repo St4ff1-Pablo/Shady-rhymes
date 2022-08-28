@@ -12,3 +12,4 @@ for (let anchor of anchors) {
     });
   });
 }
+AOS.init();
