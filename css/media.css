@@ -77,6 +77,12 @@
     height: 30px;
     margin-right: 5px;
   }
+  .cards-row {
+    display: flex;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 @media (min-width: 450px) {
   .hamburger_menu {
